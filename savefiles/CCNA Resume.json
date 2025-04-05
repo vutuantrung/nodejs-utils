@@ -1,0 +1,668 @@
+[
+    {
+        "title": "Bài 1 Các thành phần cơ bản của hệ thống mạng | Điện tử Viễn thông",
+        "keywords": []
+    },
+    {
+        "title": "Bài 2 Các yếu tố ảnh hưởng đến tốc độ của hệ thống mạng  | Khoa điện tử Fee",
+        "keywords": []
+    },
+    {
+        "title": "Bài 3 Các đặc điểm của hệ thống mạng | Điên tử Viễn thông DTVT",
+        "keywords": []
+    },
+    {
+        "title": "Bài 4 Các loại mô hình Topology của hệ thống mạng | Điên tử Viễn thông DTVT",
+        "keywords": []
+    },
+    {
+        "title": "Bài 5 Giới thiệu tổng quan về mô hình OSI",
+        "keywords": []
+    },
+    {
+        "title": "Bài 6 Giới thiệu chức năng từng phân lớp trong mô hình OSI Layer 1 4",
+        "keywords": []
+    },
+    {
+        "title": "Bài 7 Giới thiệu chức năng của từng phân lớp trong mô hình OSI Layer 5 7",
+        "keywords": []
+    },
+    {
+        "title": "Bài 8 Giới thiệu mô hình TCP IP",
+        "keywords": []
+    },
+    {
+        "title": "Bài 9 Phân tích quá trình đóng gói Encapsulation và giải đóng gói Decapsulation | Điện tử Viễn thông",
+        "keywords": []
+    },
+    {
+        "title": "Bài 10 Mối tương quan giữa địa chỉ MAC và địa chỉ IP  | Khoa điện tử Fee",
+        "keywords": []
+    },
+    {
+        "title": "Bài 11 Kích thước tối đa với một phân mảnh Seqment",
+        "keywords": []
+    },
+    {
+        "title": "Bài 12 Cơ chế hoạt động của UDP và TCP",
+        "keywords": []
+    },
+    {
+        "title": "Bài 13  Cơ chế điều khiển luồng Flow Control trong giao thức TCP",
+        "keywords": []
+    },
+    {
+        "title": "Bài 14 Tham số Port nguồn, Port đích trong UDP và TCP",
+        "keywords": []
+    },
+    {
+        "title": "Bài 15 Tổng quan về công nghệ Ethernet trong hệ thống mạng LAN",
+        "keywords": []
+    },
+    {
+        "title": "Bài 16 Hướng dẫn xác định địa chỉ MAC của máy tính sử dụng hệ điều hành Window",
+        "keywords": []
+    },
+    {
+        "title": "Bài 17 Phân tích quá trình trao đổi dữ liệu giữa các thiết bị trong hệ thống mạng LAN",
+        "keywords": []
+    },
+    {
+        "title": "Bài 18 Cơ chế chuyển mạch Ethernet Switch",
+        "keywords": [
+            "MAC Address Table",
+            "Packet|A|B"
+        ]
+    },
+    {
+        "title": "Bài 19 Các kiểu truyền thông trên hệ thống mạng LAN",
+        "keywords": []
+    },
+    {
+        "title": "Bài 20 Cơ chế hoạt động của giao thức ARP phân giải địa chỉ IP thành địa chỉ MAC",
+        "keywords": [
+            "Broadcast ARP Request => ARP Reply",
+            "Ai có địa chỉ MAC tương ứng",
+            "arp -a"
+        ]
+    },
+    {
+        "title": "Bài 21 Phân tích quá trình trao đổi dữ liệu giữa các phân vùng mạng LAN",
+        "keywords": []
+    },
+    {
+        "title": "Bài 22 Tìm hiểu cấu trúc của địa chỉ MAC",
+        "keywords": []
+    },
+    {
+        "title": "Bài 23 Các tiêu chuẩn của công nghệ Ethernet LAN",
+        "keywords": []
+    },
+    {
+        "title": "Bài 24 Broadcast Domain trên mạng Ethernet LAN",
+        "keywords": []
+    },
+    {
+        "title": "Bài 25 Cơ chế truyền Half Duplex và Full Duplex trên mạng Ethernet LAN",
+        "keywords": []
+    },
+    {
+        "title": "Bài 26 Collision Domain và cơ chế tránh đụng độ CSMA CD trong mạng LAN",
+        "keywords": [
+            "vùng mạng đụng độ khi cùng gửi dữ liệu",
+            "càng nhiều collision domain => càng tốt",
+            "CSMA/CD => đề xuất thiết bị đợi một khoảng thời gian ngẫu nhiên rồi gửi lại"
+        ]
+    },
+    {
+        "title": "Bài 27 Xác định số lượng Collision Domain và Broadcast Domain trên mạng LAN",
+        "keywords": []
+    },
+    {
+        "title": "Bài 28 Tổng quan về địa chỉ IP và cấu trúc địa chỉ IPv4",
+        "keywords": []
+    },
+    {
+        "title": "Bài 29 Tổng qua về các lớp của địa chỉ IPv4",
+        "keywords": [
+            "Class A,B,C,D,E",
+            "Class A    0xxxxxxx ( 1  -  127) . host . host . host",
+            "Class B    10xxxxxx (128 -  191) . netw . host . host",
+            "Class C    110xxxxx (192 -  223) . netw . netw . host"
+        ]
+    },
+    {
+        "title": "Bài 30 Hướng dẫn chuyển đổi từ Prefix Length thành Subnet Mask",
+        "keywords": [
+            "Class A    10.0.0.0/8",
+            "Class B    172.16.0.0/16",
+            "Class C    192.168.1.0/24"
+        ]
+    },
+    {
+        "title": "Bài 31 Hướng dẫn chuyển đổi IPv4 từ nhị phân sang thập phân",
+        "keywords": []
+    },
+    {
+        "title": "Bài 32 Hướng dẫn chuyển đổi Octet của IPv4 từ thập phân sang nhị phân",
+        "keywords": []
+    },
+    {
+        "title": "Bài 33 Chức năng của địa chỉ mạng Network và địa chỉ Broadcast",
+        "keywords": []
+    },
+    {
+        "title": "Bài 34 Nguyên tắc chia một mạng lớn thành nhiều lớp mạng nhỏ",
+        "keywords": []
+    },
+    {
+        "title": "*** Bài 35 Số lượng mạng con Subnet và địa chỉ IP sau khi chia nhỏ lớp mạng",
+        "keywords": []
+    },
+    {
+        "title": "Bài 36 Hướng dẫn quy hoạch IP cho hệ thống mạng",
+        "keywords": [
+            "số lượng thiệt bị kết nối",
+            "tính toán số lượng Host/Subnet"
+        ]
+    },
+    {
+        "title": "Bài 37 Phân biệt địa chỉ Public IP và Private IP",
+        "keywords": []
+    },
+    {
+        "title": "Bài 38 Hướng dẫn cài đặt IPv4 cho máy tính dùng HĐH WinDow",
+        "keywords": []
+    },
+    {
+        "title": "Bài 39 Phân biệt cáp UTP và cáp chống nhiễu điện từ STP",
+        "keywords": []
+    },
+    {
+        "title": "Bài 40 Khảo sát các đặc điểm của chuẩn cáp đồng Ethernet LAN",
+        "keywords": []
+    },
+    {
+        "title": "Bài 41 Phân biệt cáp thẳng Straight Through và cáp chéo Cross Over",
+        "keywords": []
+    },
+    {
+        "title": "Bài 42 Khởi động và kết nối vào cấu hình giao diện bằng dòng lệnh của thiết bị",
+        "keywords": [
+            "cáp console",
+            "putty",
+            "giao thức RS232",
+            "9600bps"
+        ]
+    },
+    {
+        "title": "Bài 43 Khảo sát các chế độ dòng lệnh của thiết bị",
+        "keywords": [
+            "R1> enable",
+            "R1# configure terminal",
+            "R1 (config)#"
+        ]
+    },
+    {
+        "title": "Bài 44 Thiết lập mật khẩu Console và mật khẩu Enable trên thiết bị",
+        "keywords": [
+            "R1 (config)# line con 0",
+            "R1 (config-line)# password cisco",
+            "R1 (config-line)# no password",
+            "R1 (config-line)# login",
+            "",
+            "R1 (config)# enable password cisco",
+            "R1 (config)# no enable password"
+        ]
+    },
+    {
+        "title": "Bài 45 Tính năng tự động đăng xuất Exec Timeout trên kết nối Console",
+        "keywords": []
+    },
+    {
+        "title": "Bài 46 Khai báo địa chỉ IP trên các cổng giao tiếp của thiết bị",
+        "keywords": []
+    },
+    {
+        "title": "Bài 47 Khai báo địa chỉ IP trên Cisco Switch",
+        "keywords": []
+    },
+    {
+        "title": "Bài 48 Tính năng chống trôi dòng lệnh Logging Synchronous",
+        "keywords": [
+            "R1 (config)# logging synchronous"
+        ]
+    },
+    {
+        "title": "Bài 49 Tính năng phân giải tên miền IP Domain Lookup",
+        "keywords": []
+    },
+    {
+        "title": "Bài 50 Lưu cấu hình và khởi động lại thiết bị",
+        "keywords": [
+            "R1# write memory",
+            "R1# copy running-config startup-config",
+            "R1# show startup-config"
+        ]
+    },
+    {
+        "title": "Bài 51 Xóa cấu hình và khởi động lại thiết bị",
+        "keywords": []
+    },
+    {
+        "title": "Bài 52 Tính năng mã hóa mật khẩu trong File cấu hình",
+        "keywords": []
+    },
+    {
+        "title": "Bài 53  Lưu cấu hình của thiết bị lên TFTP Server",
+        "keywords": []
+    },
+    {
+        "title": "Bài 54 Lưu cấu hình của thiết bị lên FTP Server",
+        "keywords": []
+    },
+    {
+        "title": "Bài 55  Lưu hệ điều hành IOS của thiết bị lên TFTP Server",
+        "keywords": []
+    },
+    {
+        "title": "Bài 56 Lưu hệ điều hành IOS của thiết bị lên FTP Server",
+        "keywords": []
+    },
+    {
+        "title": "Bài 57 Hướng dẫn Crack mật khẩu trên Cisco Router",
+        "keywords": []
+    },
+    {
+        "title": "Bài 58 Hướng dẫn khôi phục hệ điiều hanh IOS trên Cisco Router",
+        "keywords": []
+    },
+    {
+        "title": "Bài 59 Giao thức phát hiện thiết bị láng giềng CDP trên thiết bị Cisco  FEE",
+        "keywords": []
+    },
+    {
+        "title": "Bài 60 Giao thức phát hiện thiết bị láng giềng LLDP trên các thiết bị mạng",
+        "keywords": []
+    },
+    {
+        "title": "Bài 61 Cấu hình cơ bản",
+        "keywords": []
+    },
+    {
+        "title": "Bài 62 Thay đổi hoặc gỡ bỏ mật khẩu Telnet Điện tử Viễn thông DTVT FEE TNUT",
+        "keywords": []
+    },
+    {
+        "title": "Bài 63 Cấu hình xác thực bằng Username và Password",
+        "keywords": []
+    },
+    {
+        "title": "Bài 64 Cấu hình Telnet không cần đăng nhập mật khẩu",
+        "keywords": []
+    },
+    {
+        "title": "Bài 65 Tính năng Configuration Lock chỉ cho phép một người",
+        "keywords": []
+    },
+    {
+        "title": "Bài 66 Thay đổi Port dịch vụ Telnet",
+        "keywords": []
+    },
+    {
+        "title": "Bài 67 Hướng dẫn sử dụng Wireshark bật mật khẩu telnet",
+        "keywords": []
+    },
+    {
+        "title": "Bài 68 Xác thực Authentication",
+        "keywords": []
+    },
+    {
+        "title": "Bài 69 Phân quyền Authorization",
+        "keywords": []
+    },
+    {
+        "title": "Bài 70 Nhật ký truy cập mạng Accounting",
+        "keywords": []
+    },
+    {
+        "title": "Bài 71 Login Block For giới hạn số lần",
+        "keywords": []
+    },
+    {
+        "title": "Bài 72  Xác thực Telnet bằng RADIUS Server",
+        "keywords": []
+    },
+    {
+        "title": "Bài 73 Kỹ thuật SSH cấu hình thiết bị từ xa",
+        "keywords": []
+    },
+    {
+        "title": "Bài 74 Tổng quan về kỹ thuật định tuyến",
+        "keywords": []
+    },
+    {
+        "title": "Bài 75 Cơ chế hoạt động của định tuyến",
+        "keywords": []
+    },
+    {
+        "title": "Bài 76 Cấu hình định tuyến tĩnh trên Cisco Router",
+        "keywords": []
+    },
+    {
+        "title": "Bài 77  Cấu hình Default Route trên Cisco Router",
+        "keywords": []
+    },
+    {
+        "title": "Bài 78 Cơ chế Proxy ARP trong định tuyến",
+        "keywords": []
+    },
+    {
+        "title": "Bài 79 Cấu hình cân bằng tải Load Balancing trên Cisco Router",
+        "keywords": []
+    },
+    {
+        "title": "Bài 80 Điều hướng lưu lượng bằng cách hiệu chỉnh AD của Static Route  FEE",
+        "keywords": []
+    },
+    {
+        "title": "Bài 81 Tối ưu định tuyến bằng kỹ thuật Summary",
+        "keywords": []
+    },
+    {
+        "title": "Bài 82 Bản tin Echo Request và Echo Reply của ứng dụng Ping",
+        "keywords": []
+    },
+    {
+        "title": "Bài 83 Bản tin TTL Expired In Transit của ứng dụng Ping",
+        "keywords": []
+    },
+    {
+        "title": "Bài 84 Cơ chế hoạt động Tracert trên PC và Traceroute trên Cisco Router",
+        "keywords": []
+    },
+    {
+        "title": "Bài 85 Bản tin Destination Unreachable của ứng dụng Ping",
+        "keywords": []
+    },
+    {
+        "title": "Bài 86 Bản tin Request Timeout của ứng dụng Ping",
+        "keywords": []
+    },
+    {
+        "title": "Bài 87 Tổng quan về VLAN",
+        "keywords": []
+    },
+    {
+        "title": "Bài 88 Cấu hình VLAN trên Cisco Switch",
+        "keywords": []
+    },
+    {
+        "title": "Bài 89 Tổng quan về đường Trunk",
+        "keywords": []
+    },
+    {
+        "title": "Bài 90 Cấu hình kết nối Trunk trên Cisco Switch",
+        "keywords": []
+    },
+    {
+        "title": "Bài 91 Hiệu chỉnh Native VLAN trên đường Trunk sử dụng kiểu đóng gói dot1q",
+        "keywords": []
+    },
+    {
+        "title": "Bài 92 Giải pháp mở rộng VLAN nếu thiếu Port trên Switch",
+        "keywords": []
+    },
+    {
+        "title": "Bài 93 Giao thức DTP tự động thiết lập kết nối Trunk giữa các Switch  FEE",
+        "keywords": []
+    },
+    {
+        "title": "Bài 94 Giao thức VTP đồng bộ hóa thông tin VLAN giữa các Switch",
+        "keywords": []
+    },
+    {
+        "title": "Bài 95 Giải pháp Router on a Stick trên Cisco Router",
+        "keywords": []
+    },
+    {
+        "title": "Bài 96 Giải pháp SVI trên Switch Layer 3",
+        "keywords": []
+    },
+    {
+        "title": "Bài 97 Cấu hình định tuyến trên Switch Layer 3",
+        "keywords": []
+    },
+    {
+        "title": "Bài 98 Cấu hình DHCP Server trên Switch Layer 3",
+        "keywords": []
+    },
+    {
+        "title": "Bài 99 Cơ chế hoạt động của giao thức DHCP",
+        "keywords": []
+    },
+    {
+        "title": "Bài 100 Cấu hình DHCP Server trên Cisco Router",
+        "keywords": []
+    },
+    {
+        "title": "Bài 101 Cấp IP cố định cho thiết bị bằng DHCP Server",
+        "keywords": []
+    },
+    {
+        "title": "Bài 102 Cấu hình chức năng DHCP Relay chuyển tiếp lưu lượng xin IP  FEE",
+        "keywords": []
+    },
+    {
+        "title": "Bài 103 Cấu hình chức năng DHCP Client trên Cisco Router",
+        "keywords": []
+    },
+    {
+        "title": "Bài 104 Khắc phục sự cố Conflict IP trên DHCP Server",
+        "keywords": []
+    },
+    {
+        "title": "Bài 105 Tổng quan mô hình thiết kế hạ tầng mạng 3 phân lớp",
+        "keywords": []
+    },
+    {
+        "title": "Bài 106 Nguyên nhân xảy ra Loop trên hạ tầng mạng",
+        "keywords": []
+    },
+    {
+        "title": "Bài 107 Cơ chế chống Loop của công nghệ STP",
+        "keywords": []
+    },
+    {
+        "title": "Bài 108 Chức năng của Root Bridge và vai trò Port Role của các Port trong STP | Điện tử Viễn thông",
+        "keywords": []
+    },
+    {
+        "title": "Bài 109 Nguyên tắc xác định Root Bridge và Root Port trong STP",
+        "keywords": []
+    },
+    {
+        "title": "Bài 110 Nguyên tắc xác định Designated Port và Alternated Port trong STP",
+        "keywords": []
+    },
+    {
+        "title": "Bài 111 Khảo sát chức năng PortFast và các trạng thái Port State trong STP",
+        "keywords": []
+    },
+    {
+        "title": "Bài 112 Giải pháp cân bằng tải lưu lượng của PVST+ trên các Cisco Switch",
+        "keywords": []
+    },
+    {
+        "title": "Bài 113 Tổng quan về giải pháp Link Aggregation Group",
+        "keywords": []
+    },
+    {
+        "title": "Bài 114 Cấu hình EtherChannel bằng phương thức thủ công",
+        "keywords": []
+    },
+    {
+        "title": "Bài 115 Cấu hình EtherChannel bằng giao thức LACP hoặc PAgP",
+        "keywords": []
+    },
+    {
+        "title": "Bài 116 Cấu hình EtherChannel hoạt động ở chế độ Layer 3",
+        "keywords": []
+    },
+    {
+        "title": "Bài 117 Tổng quan về công nghệ dự phòng Gateway HSRP",
+        "keywords": []
+    },
+    {
+        "title": "Bài 118 Nguyên tắc bầu chọn Active và Standby Router",
+        "keywords": []
+    },
+    {
+        "title": "Bài 119 Giải pháp cân bằng tải trong HSRP",
+        "keywords": []
+    },
+    {
+        "title": "Bài 120 Cơ chế Track giám sát trạng thái Port trong HSRP",
+        "keywords": []
+    },
+    {
+        "title": "Bài 121 Tổng quan về công nghệ",
+        "keywords": []
+    },
+    {
+        "title": "Bài 122 Phương thức xử lý Port vi phạm",
+        "keywords": []
+    },
+    {
+        "title": "Bài 123 Phương thức tự động cập nhật MAC hợp lệ",
+        "keywords": []
+    },
+    {
+        "title": "Bài 124 Quản lý và giám sát hạ tầng mạng tập trung bằng giải pháp Syslog",
+        "keywords": []
+    },
+    {
+        "title": "Bài 125 Hiệu chỉnh thời gian trên các thiết bị mạng bằng giao thức NTP  FEE",
+        "keywords": []
+    },
+    {
+        "title": "Bài 126 Quản lý và giám sát hệ thống mạng tập trung bằng giải pháp SNMP",
+        "keywords": []
+    },
+    {
+        "title": "Bài 127 Hướng dẫn cái đặt phần mềm PRTG Traffic Grapher trên Window 10",
+        "keywords": []
+    },
+    {
+        "title": "Bài 128 Giám sát băng thông trên thiết bị bằng phần mềm PRTG Traffic Grapher",
+        "keywords": []
+    },
+    {
+        "title": "Bài 129 Tổng quan về chức năng của ACL",
+        "keywords": []
+    },
+    {
+        "title": "Bài 130 Đặc điểm của Standard và Extended ACL",
+        "keywords": []
+    },
+    {
+        "title": "Bài 131 IP Preference và Wildcard Mask trong ACL",
+        "keywords": []
+    },
+    {
+        "title": "Bài 132 Lựa chọn vị trí áp dụng ACL",
+        "keywords": []
+    },
+    {
+        "title": "Bài 133 Khảo sát ACL cam Telnet trên Cisco Router",
+        "keywords": []
+    },
+    {
+        "title": "Bài 134 Named ACL trên Cisco Router",
+        "keywords": []
+    },
+    {
+        "title": "Bài 135  Lọc lưu lượng theo thời gian Time Range",
+        "keywords": []
+    },
+    {
+        "title": "Bài 136 Phát hiện lưu lượng vi phạm bằng tính năng Log ACL",
+        "keywords": []
+    },
+    {
+        "title": "Bài 137 Cơ chế hoạt động",
+        "keywords": []
+    },
+    {
+        "title": "Bài 138 Cấu hình PAT trên Cisco Router",
+        "keywords": []
+    },
+    {
+        "title": "Bài 139 Cơ chế hoạt động",
+        "keywords": []
+    },
+    {
+        "title": "Bài 140 Cấu hình Static NAT IP trên Cisco Router",
+        "keywords": []
+    },
+    {
+        "title": "Bài 141 Cấu hình Static NAT IP và Port trên Cisco Router",
+        "keywords": []
+    },
+    {
+        "title": "Bài 142 Tổng quan về các giao thức định tuyến động",
+        "keywords": []
+    },
+    {
+        "title": "Bài 143 Giao thức định tuyến động RIP   Tổng quan về giao thức",
+        "keywords": []
+    },
+    {
+        "title": "Bài 144 Lựa chọn đường đi dựa vào tham số AD và Metric",
+        "keywords": []
+    },
+    {
+        "title": "Bài 145 Cơ chế hoạt động",
+        "keywords": []
+    },
+    {
+        "title": "Bài 146 Cơ chế chống Loop Split Horizon",
+        "keywords": []
+    },
+    {
+        "title": "Bài 147 Các bộ Timer trong giao thức RIP",
+        "keywords": []
+    },
+    {
+        "title": "Bài 148 So sánh RIPv1 và RIPv2",
+        "keywords": []
+    },
+    {
+        "title": "Bài 149 Khái niệm về Major Network",
+        "keywords": []
+    },
+    {
+        "title": "Bài 150 Cấu hình giao thức RIP trên Cisco Router",
+        "keywords": []
+    },
+    {
+        "title": "Bài 151 Quảng bá Defaul Route trong giao thức RIP",
+        "keywords": []
+    },
+    {
+        "title": "Bài 152 Giao thức định tuyến động EIGRP   Phần 1 Tổng quan về giao thức",
+        "keywords": []
+    },
+    {
+        "title": "Bài 153 Giao thức định tuyến động EIGRP   Phần 3 Hello Timer và Dead Timer",
+        "keywords": []
+    },
+    {
+        "title": "Bài 154 Giao thức định tuyến động EIGRP   Phần 4 Cơ chế tóm tắt địa chỉ Auto Summary",
+        "keywords": []
+    },
+    {
+        "title": "Bài 155 Giao thức định tuyến động EIGRP   Phần 5 Quảng bá Default Route trong EIGRP",
+        "keywords": []
+    }
+]
