@@ -242,36 +242,72 @@
         "keywords": [
             "R1# write memory",
             "R1# copy running-config startup-config",
-            "R1# show startup-config"
+            "R1# show startup-config",
+            "R1# reload"
         ]
     },
     {
         "title": "Bài 51 Xóa cấu hình và khởi động lại thiết bị",
-        "keywords": []
+        "keywords": [
+            "R1# erase startup-config",
+            "R1# reload"
+        ]
     },
     {
         "title": "Bài 52 Tính năng mã hóa mật khẩu trong File cấu hình",
-        "keywords": []
+        "keywords": [
+            "R1 (config)# service password-encryption",
+            "",
+            "chỉ encrypt trong running-config, không trong startup-config",
+            "đặt password xong => encrypt => write memory"
+        ]
     },
     {
         "title": "Bài 53  Lưu cấu hình của thiết bị lên TFTP Server",
-        "keywords": []
+        "keywords": [
+            "R1# copy running-config tftp:",
+            "R1# copy startup-config tftp:",
+            "R1# copy tftp: startup-config",
+            "R1# copy tftp: running-config"
+        ]
     },
     {
         "title": "Bài 54 Lưu cấu hình của thiết bị lên FTP Server",
-        "keywords": []
+        "keywords": [
+            "R1 (config)# ip ftp username cisco",
+            "R1 (config)# ip ftp password cisco",
+            "R1# copy running-config ftp:",
+            "R1# copy startup-config ftp:",
+            "R1# copy ftp: startup-config",
+            "R1# copy ftp: running-config"
+        ]
     },
     {
         "title": "Bài 55  Lưu hệ điều hành IOS của thiết bị lên TFTP Server",
-        "keywords": []
+        "keywords": [
+            "R1# show flash:", // sử dụng để lấy tên HDH của cisco router
+            "R1# copy flash: tftp:",
+            "R1# copy tftp: flash:",
+            "",
+            "R1# delete flash: <tên files>"
+        ]
     },
     {
         "title": "Bài 56 Lưu hệ điều hành IOS của thiết bị lên FTP Server",
-        "keywords": []
+        "keywords": [
+            "R1 (config)# ip ftp username <username>",
+            "R1 (config)# ip ftp password <password>",
+            "R1 (config)# show flash:",
+            "R1 (config)# copy flash: ftp:",
+            "R1 (config)# copy ftp: flash:"
+        ]
     },
     {
         "title": "Bài 57 Hướng dẫn Crack mật khẩu trên Cisco Router",
-        "keywords": []
+        "keywords": [
+            "Rommon> confreg 0x2142",
+            "Rommon> reset"
+        ]
     },
     {
         "title": "Bài 58 Hướng dẫn khôi phục hệ điiều hanh IOS trên Cisco Router",
@@ -279,27 +315,65 @@
     },
     {
         "title": "Bài 59 Giao thức phát hiện thiết bị láng giềng CDP trên thiết bị Cisco  FEE",
-        "keywords": []
+        "keywords": [
+            "S1# show cdp neighbors",
+            "S1# show cdp neighbors detail",
+            "60s một lần => gửi CDP qua Sw và ngược lại",
+            "S1 (config)# interface <value_int>",
+            "S1 (config-if)# no cdp enable => tắt cdp",
+            "S1 (config)# no cdp run"
+        ]
     },
     {
         "title": "Bài 60 Giao thức phát hiện thiết bị láng giềng LLDP trên các thiết bị mạng",
-        "keywords": []
+        "keywords": [
+            "S1 (config)# lldp run",
+            "S1 (config)# interface <value_int>",
+            "S1 (config-if)# lldp enable",
+            "S1# show lldp neighbors"
+        ]
     },
     {
         "title": "Bài 61 Cấu hình cơ bản",
-        "keywords": []
+        "keywords": [
+            "R1 (config)# line vty 0 4", // cho phép 5 ng có thể telnet đồng thời tới router
+            "R1 (config-line)# password abc",
+            "R1 (config-line)# login",
+            "R1# show users",
+            "R1# clear line <pid>"
+        ]
     },
     {
         "title": "Bài 62 Thay đổi hoặc gỡ bỏ mật khẩu Telnet Điện tử Viễn thông DTVT FEE TNUT",
-        "keywords": []
+        "keywords": [
+            "R1 (config)# line vty 0 4",
+            "R1 (config-line)# password abc",
+            "R1 (config-line)# no password" // bỏ password, vô hiệu hóa tất cả session người dùng đang telnet
+        ]
     },
     {
         "title": "Bài 63 Cấu hình xác thực bằng Username và Password",
-        "keywords": []
+        "keywords": [
+            "nên sử dụng username/password cho mỗi user => xác định ai config",
+            "",
+            "R1 (config)# username user1 password abc",
+            "R1 (config)# username user2 password 123",
+            "R1 (config)# line vty 0 4",
+            "R1 (config-line)# no password",
+            "R1 (config-line)# login local", // áp dụng username/password đã định nghĩa phía trên
+            "R1 (config)# enable password cisco",
+            "",
+            "R1# show users"
+        ]
     },
     {
         "title": "Bài 64 Cấu hình Telnet không cần đăng nhập mật khẩu",
-        "keywords": []
+        "keywords": [
+            "R1 (config)# line vty 0 4",
+            "R1 (config-line)# privilege level 15", // trên router có 16 level bảo mật (15 cao nhất)
+            "R1 (config-line)# no login",
+            "R1 (config)# enable password cisco"
+        ]
     },
     {
         "title": "Bài 65 Tính năng Configuration Lock chỉ cho phép một người",

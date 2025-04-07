@@ -1,28 +1,26 @@
+const path = require('path');
 const fs = require('fs');
-const path = require("path")
-const sanitize = require('sanitize-filename');
-// const { getVideoData } = require('./youtubeServices');
+const { removeDuplicateUrls: rDupYt } = require('./services/youtubeServices');
+const { removeDuplicateUrls: rDupRule34 } = require('./services/rule34Services');
 
-// const gifData = fs.readFileSync("./redgifdata.json");
-// const gifs = JSON.parse(gifData.toString());
-// console.log(gifs.gifs.length);
+const WATCHING_YOUTUBE_URLS = 'C:/Users/TRUNG/Downloads/watching_youtube.txt';
+const WATCHING_RULE34_URLS = 'C:/Users/TRUNG/Downloads/watching_rule34.txt';
+const WATCHING_URLS = 'C:/Users/TRUNG/Downloads/watching_urls.txt';
 
-// getVideoData("https://www.youtube.com/watch?v=TISf7ez-Tgg");
+const URLS_SOURCE = __dirname + '/data/urls.txt';
+const urlString = fs.readFileSync(URLS_SOURCE, 'utf-8');
+const urls = urlString.replaceAll('\r', '').split('\n');
 
+let treat_youtube = true,
+    treat_rule34 = true;
 
-// const { parse } = require('node-html-parser');
-// const { HTMLToJSON } = require('html-to-json-parser'); // CommonJS
+const externalRule34Urls = urls.filter((url) => url.includes('rule34.xxx'));
+const externalYoutubeUrls = urls.filter((url) => url.startsWith('https://www.youtube.com'));
 
-const ytUrls2 = [
-	"https://www.youtube.com/watch?v=PWfgJDz8moA",
-	"https://www.youtube.com/watch?v=wzzgrNgykx8",
-	"https://www.youtube.com/watch?v=nAIrIL1kiFY"
-]
+const specificUrls = [...externalRule34Urls, ...externalYoutubeUrls];
+const otherUrls = urls.filter((url) => !specificUrls.includes(url));
 
-const { downloadVideosByUrl } = require('./services/youtubeServices');
-const ytUrls = [
-	"https://www.youtube.com/watch?v=PWfgJDz8moA",
-	"https://www.youtube.com/watch?v=wzzgrNgykx8",
-	"https://www.youtube.com/watch?v=nAIrIL1kiFY"
-]
-downloadVideosByUrl(ytUrls)
+fs.writeFileSync(WATCHING_URLS, otherUrls.join('\n'));
+
+if (treat_youtube) rDupYt(WATCHING_YOUTUBE_URLS, WATCHING_YOUTUBE_URLS, externalYoutubeUrls);
+if (treat_rule34) rDupRule34(WATCHING_RULE34_URLS, WATCHING_RULE34_URLS, externalRule34Urls);
