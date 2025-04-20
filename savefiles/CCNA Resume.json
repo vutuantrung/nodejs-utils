@@ -69,10 +69,7 @@
     },
     {
         "title": "Bài 18 Cơ chế chuyển mạch Ethernet Switch",
-        "keywords": [
-            "MAC Address Table",
-            "Packet|A|B"
-        ]
+        "keywords": ["MAC Address Table", "Packet|A|B"]
     },
     {
         "title": "Bài 19 Các kiểu truyền thông trên hệ thống mạng LAN",
@@ -80,11 +77,7 @@
     },
     {
         "title": "Bài 20 Cơ chế hoạt động của giao thức ARP phân giải địa chỉ IP thành địa chỉ MAC",
-        "keywords": [
-            "Broadcast ARP Request => ARP Reply",
-            "Ai có địa chỉ MAC tương ứng",
-            "arp -a"
-        ]
+        "keywords": ["Broadcast ARP Request => ARP Reply", "Ai có địa chỉ MAC tương ứng", "arp -a"]
     },
     {
         "title": "Bài 21 Phân tích quá trình trao đổi dữ liệu giữa các phân vùng mạng LAN",
@@ -136,7 +129,7 @@
         "keywords": [
             "Class A    10.0.0.0/8",
             "Class B    172.16.0.0/16",
-            "Class C    192.168.1.0/24"
+            "Cla ss C    192.168.1.0/24"
         ]
     },
     {
@@ -161,10 +154,7 @@
     },
     {
         "title": "Bài 36 Hướng dẫn quy hoạch IP cho hệ thống mạng",
-        "keywords": [
-            "số lượng thiệt bị kết nối",
-            "tính toán số lượng Host/Subnet"
-        ]
+        "keywords": ["số lượng thiệt bị kết nối", "tính toán số lượng Host/Subnet"]
     },
     {
         "title": "Bài 37 Phân biệt địa chỉ Public IP và Private IP",
@@ -188,20 +178,11 @@
     },
     {
         "title": "Bài 42 Khởi động và kết nối vào cấu hình giao diện bằng dòng lệnh của thiết bị",
-        "keywords": [
-            "cáp console",
-            "putty",
-            "giao thức RS232",
-            "9600bps"
-        ]
+        "keywords": ["cáp console", "putty", "giao thức RS232", "9600bps"]
     },
     {
         "title": "Bài 43 Khảo sát các chế độ dòng lệnh của thiết bị",
-        "keywords": [
-            "R1> enable",
-            "R1# configure terminal",
-            "R1 (config)#"
-        ]
+        "keywords": ["R1> enable", "R1# configure terminal", "R1 (config)#"]
     },
     {
         "title": "Bài 44 Thiết lập mật khẩu Console và mật khẩu Enable trên thiết bị",
@@ -221,17 +202,34 @@
     },
     {
         "title": "Bài 46 Khai báo địa chỉ IP trên các cổng giao tiếp của thiết bị",
-        "keywords": []
+        "keywords": [
+            "R1 (config)# interface <value_int>",
+            "R1 (config-if)# ip address <ip> <subnet mask>",
+            "R1 (config-if)# no shutdown",
+            "R1 (config-if)# end",
+            "",
+            "R1# show ip interface brief",
+            "",
+            "R1 (config)# interface <value_int>",
+            "R1 (config-if)# ip address dhcp",
+            "R1 (config-if)# no ip address dhcp",
+            "R1 (config-if)# ip address <ip> <subnet mask> secondary"
+        ]
     },
     {
         "title": "Bài 47 Khai báo địa chỉ IP trên Cisco Switch",
-        "keywords": []
+        "keywords": [
+            "R1 (config)# interface vlan <value_int>",
+            "R1 (config-if)# ip address <ip> <subnet mask>",
+            "R1 (config-if)# no shutdown",
+            "R1 (config-if)# end",
+            "",
+            "R1 (config)# ip default-gateway <ip>"
+        ]
     },
     {
         "title": "Bài 48 Tính năng chống trôi dòng lệnh Logging Synchronous",
-        "keywords": [
-            "R1 (config)# logging synchronous"
-        ]
+        "keywords": ["R1 (config)# logging synchronous"]
     },
     {
         "title": "Bài 49 Tính năng phân giải tên miền IP Domain Lookup",
@@ -248,10 +246,7 @@
     },
     {
         "title": "Bài 51 Xóa cấu hình và khởi động lại thiết bị",
-        "keywords": [
-            "R1# erase startup-config",
-            "R1# reload"
-        ]
+        "keywords": ["R1# erase startup-config", "R1# reload"]
     },
     {
         "title": "Bài 52 Tính năng mã hóa mật khẩu trong File cấu hình",
@@ -304,10 +299,7 @@
     },
     {
         "title": "Bài 57 Hướng dẫn Crack mật khẩu trên Cisco Router",
-        "keywords": [
-            "Rommon> confreg 0x2142",
-            "Rommon> reset"
-        ]
+        "keywords": ["Rommon> confreg 0x2142", "Rommon> reset"]
     },
     {
         "title": "Bài 58 Hướng dẫn khôi phục hệ điiều hanh IOS trên Cisco Router",
@@ -377,7 +369,13 @@
     },
     {
         "title": "Bài 65 Tính năng Configuration Lock chỉ cho phép một người",
-        "keywords": []
+        "keywords": [
+            "R1 (config)# line vty 0 4",
+            "R1 (config-line)# password abc",
+            "R1 (config-line)# login",
+            "R1 (config)# enable password 123",
+            "R1 (config)# configuration mode exclusive auto" // chỉ cho phép một người truy cập vào chế độ cấu hình
+        ]
     },
     {
         "title": "Bài 66 Thay đổi Port dịch vụ Telnet",
@@ -389,11 +387,27 @@
     },
     {
         "title": "Bài 68 Xác thực Authentication",
-        "keywords": []
+        "keywords": [
+            "R1 (config)# aaa new-model",
+            "R1 (config)# aaa authentication login LOCAL_AAA local", // xác thực người dùng bằng username/password đã định nghĩa phía trên
+            "R1 (config)# username user1 password abc",
+            "R1 (config)# username user2 password 123",
+            "",
+            "R1 (config)# line vty 0 4",
+            "R1 (config-line)# login authentication LOCAL_AAA", // xác thực người dùng bằng username/password đã định nghĩa phía trên
+            "R1 (config-line)# exit", // phân quyền cho người dùng
+            "",
+            "R1 (config)# enable secret level 15" // ghi lại nhật ký truy cập của người dùng
+        ]
     },
     {
         "title": "Bài 69 Phân quyền Authorization",
-        "keywords": []
+        "keywords": [
+            "R1 (config)# enable secret level 8 cisco", // mật khẩu cho người dùng có quyền 8
+            "R1# enable 8",
+            "R1# show privilege", // kiểm tra quyền của người dùng
+            "R1# ?" // hiện thị danh sách lệnh được phép sử dụng
+        ]
     },
     {
         "title": "Bài 70 Nhật ký truy cập mạng Accounting",
@@ -417,11 +431,25 @@
     },
     {
         "title": "Bài 75 Cơ chế hoạt động của định tuyến",
-        "keywords": []
+        "keywords": [
+            "R1# show ip route",
+            "R1 (config)# ip route <ip> <subnet mask> <next hop>",
+            "R1 (config)# ip route <ip> <subnet mask> <interface>",
+            "R1 (config)# ip route 10.0.4.0 255.255.255.0 10.0.12.2"
+        ]
     },
     {
         "title": "Bài 76 Cấu hình định tuyến tĩnh trên Cisco Router",
-        "keywords": []
+        "keywords": [
+            "R1 (config)# ip route 0.0.0.0 0.0.0.0 <next hop>",
+            "0.0.0.0 0.0.0.0 đại diện cho tất cả ip ngoài internet",
+            "",
+            "interface f0/0 > ip address dhcp > ip nat outside",
+            "interface f0/1 > ip nat inside",
+            "ip nat inside source list 1 interface f0/0 overload",
+            "access-list 1 permit 10.0.1.0 0.0.0.255",
+            "access-list 1 permit 10.0.2.0 0.0.0.255"
+        ]
     },
     {
         "title": "Bài 77  Cấu hình Default Route trên Cisco Router",
@@ -437,7 +465,11 @@
     },
     {
         "title": "Bài 80 Điều hướng lưu lượng bằng cách hiệu chỉnh AD của Static Route  FEE",
-        "keywords": []
+        "keywords": [
+            "R1 (config)# ip route <ip> <subnet mask> <next hop> <AD>",
+            "router sẽ lấy AD nhỏ nhất để định tuyến (100% là mặc định)",
+            "nếu AD nhỏ nhất chết => router sẽ lấy AD nhỏ hơn tiếp theo để định tuyến"
+        ]
     },
     {
         "title": "Bài 81 Tối ưu định tuyến bằng kỹ thuật Summary",
@@ -469,7 +501,17 @@
     },
     {
         "title": "Bài 88 Cấu hình VLAN trên Cisco Switch",
-        "keywords": []
+        "keywords": [
+            "S1 (config)# vlan 1",
+            "S1 (config-vlan)# name <tên VLAN>",
+            "S1 (config-vlan)# exit",
+            "S1 (config)# interface <value_int>",
+            "S1 (config-if)# switchport mode access",
+            "S1 (config-if)# switchport access vlan <vlan_id>",
+            "S1# show vlan brief",
+            "",
+            "S1 (config)# no lvan <vlan_id>" // Ex: S1 (config)# no vlan 10, 2-9
+        ]
     },
     {
         "title": "Bài 89 Tổng quan về đường Trunk",
@@ -477,7 +519,16 @@
     },
     {
         "title": "Bài 90 Cấu hình kết nối Trunk trên Cisco Switch",
-        "keywords": []
+        "keywords": [
+            "S1 (config)# interface <value_int>",
+            "S1 (config-if)# switchport mode trunk",
+            "S1 (config-if)# switchport trunk encapsulation dot1q",
+            "S1 (config-if)# switchport trunk allow vlan <vlan_id>", // Ex: S1 (config-if)# switchport trunk allow vlan 2-9, 10, 20-30
+            "S1 (config-if)# switchport trunk native vlan <vlan_id>",
+            "",
+            "S1# show interface trunk",
+            "S1 (config)# vlan dot1q tag native" // native vlan được đánh dấu gán tag
+        ]
     },
     {
         "title": "Bài 91 Hiệu chỉnh Native VLAN trên đường Trunk sử dụng kiểu đóng gói dot1q",

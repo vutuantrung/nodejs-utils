@@ -1,0 +1,75 @@
+{
+    "CCNA_Study_Roadmap": {
+        "Stage_1": {
+            "Title": "Networking Basics",
+            "Topics": [
+                "What is a Network?",
+                "Types of Networks (LAN, WAN, MAN, PAN)",
+                "OSI Model (7 Layers)",
+                "TCP/IP Model (4 Layers)",
+                "IP Addressing (IPv4 & IPv6)",
+                "Subnetting and CIDR",
+                "MAC vs IP Addresses",
+                "Common Network Protocols (TCP, UDP, ICMP, ARP, DNS, DHCP)",
+                "Loopback & Private IP Ranges"
+            ]
+        },
+        "Stage_2": {
+            "Title": "Cisco Networking Basics",
+            "Topics": [
+                "Cisco IOS and CLI Navigation",
+                "Router vs Switch Functions",
+                "Basic Switch and Router Setup",
+                "Access vs Trunk Ports",
+                "VLANs and Inter-VLAN Routing",
+                "STP (Spanning Tree Protocol)",
+                "EtherChannel",
+                "CDP and LLDP"
+            ]
+        },
+        "Stage_3": {
+            "Title": "Routing and Switching",
+            "Topics": [
+                "Static Routing",
+                "Dynamic Routing Protocols: RIP, OSPF, EIGRP",
+                "Routing Metrics and Path Selection",
+                "Routing Tables",
+                "Default Gateway and Route",
+                "IPv6 Routing Basics"
+            ]
+        },
+        "Stage_4": {
+            "Title": "Network Services & Wireless",
+            "Topics": [
+                "NAT and PAT",
+                "ACLs (Standard, Extended)",
+                "DHCP (Server/Relay)",
+                "DNS",
+                "Wireless Standards (802.11a/b/g/n/ac/ax)",
+                "Wireless Security (WPA2/WPA3)",
+                "Wireless Controller Basics"
+            ]
+        },
+        "Stage_5": {
+            "Title": "Security, Automation & Management",
+            "Topics": [
+                "Port Security",
+                "Device Hardening (Passwords, SSH, etc.)",
+                "Basic Network Automation Concepts",
+                "Intro to REST APIs & JSON",
+                "Cisco DNA Center / SDN Overview",
+                "Network Monitoring (SNMP, Syslog, NetFlow)"
+            ]
+        },
+        "Stage_6": {
+            "Title": "Practice and Exam Prep",
+            "Topics": [
+                "Use Cisco Packet Tracer / GNS3 / EVE-NG",
+                "Perform Hands-on Labs (VLANs, Routing, NAT, ACLs, etc.)",
+                "Take Practice Exams (Boson, Examtopics)",
+                "Review Official Cisco Study Guide (Vol 1 & 2)",
+                "Join CCNA Study Groups (Discord, Reddit, etc.)"
+            ]
+        }
+    }
+}
