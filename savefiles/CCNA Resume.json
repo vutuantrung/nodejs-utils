@@ -69,7 +69,10 @@
     },
     {
         "title": "Bài 18 Cơ chế chuyển mạch Ethernet Switch",
-        "keywords": ["MAC Address Table", "Packet|A|B"]
+        "keywords": [
+            "MAC Address Table",
+            "Packet|A|B"
+        ]
     },
     {
         "title": "Bài 19 Các kiểu truyền thông trên hệ thống mạng LAN",
@@ -77,7 +80,11 @@
     },
     {
         "title": "Bài 20 Cơ chế hoạt động của giao thức ARP phân giải địa chỉ IP thành địa chỉ MAC",
-        "keywords": ["Broadcast ARP Request => ARP Reply", "Ai có địa chỉ MAC tương ứng", "arp -a"]
+        "keywords": [
+            "Broadcast ARP Request => ARP Reply",
+            "Ai có địa chỉ MAC tương ứng",
+            "arp -a"
+        ]
     },
     {
         "title": "Bài 21 Phân tích quá trình trao đổi dữ liệu giữa các phân vùng mạng LAN",
@@ -154,7 +161,10 @@
     },
     {
         "title": "Bài 36 Hướng dẫn quy hoạch IP cho hệ thống mạng",
-        "keywords": ["số lượng thiệt bị kết nối", "tính toán số lượng Host/Subnet"]
+        "keywords": [
+            "số lượng thiệt bị kết nối",
+            "tính toán số lượng Host/Subnet"
+        ]
     },
     {
         "title": "Bài 37 Phân biệt địa chỉ Public IP và Private IP",
@@ -178,11 +188,20 @@
     },
     {
         "title": "Bài 42 Khởi động và kết nối vào cấu hình giao diện bằng dòng lệnh của thiết bị",
-        "keywords": ["cáp console", "putty", "giao thức RS232", "9600bps"]
+        "keywords": [
+            "cáp console",
+            "putty",
+            "giao thức RS232",
+            "9600bps"
+        ]
     },
     {
         "title": "Bài 43 Khảo sát các chế độ dòng lệnh của thiết bị",
-        "keywords": ["R1> enable", "R1# configure terminal", "R1 (config)#"]
+        "keywords": [
+            "R1> enable",
+            "R1# configure terminal",
+            "R1 (config)#"
+        ]
     },
     {
         "title": "Bài 44 Thiết lập mật khẩu Console và mật khẩu Enable trên thiết bị",
@@ -229,7 +248,9 @@
     },
     {
         "title": "Bài 48 Tính năng chống trôi dòng lệnh Logging Synchronous",
-        "keywords": ["R1 (config)# logging synchronous"]
+        "keywords": [
+            "R1 (config)# logging synchronous"
+        ]
     },
     {
         "title": "Bài 49 Tính năng phân giải tên miền IP Domain Lookup",
@@ -246,7 +267,10 @@
     },
     {
         "title": "Bài 51 Xóa cấu hình và khởi động lại thiết bị",
-        "keywords": ["R1# erase startup-config", "R1# reload"]
+        "keywords": [
+            "R1# erase startup-config",
+            "R1# reload"
+        ]
     },
     {
         "title": "Bài 52 Tính năng mã hóa mật khẩu trong File cấu hình",
@@ -299,30 +323,33 @@
     },
     {
         "title": "Bài 57 Hướng dẫn Crack mật khẩu trên Cisco Router",
-        "keywords": ["Rommon> confreg 0x2142", "Rommon> reset"]
+        "keywords": [
+            "Rommon> confreg 0x2142",
+            "Rommon> reset"
+        ]
     },
     {
         "title": "Bài 58 Hướng dẫn khôi phục hệ điiều hanh IOS trên Cisco Router",
         "keywords": []
     },
     {
-        "title": "Bài 59 Giao thức phát hiện thiết bị láng giềng CDP trên thiết bị Cisco  FEE",
+        "title": "Bài 59 Giao thức phát hiện thiết bị láng giềng CDP trên thiết bị Cisco FEE",
         "keywords": [
-            "S1# show cdp neighbors",
-            "S1# show cdp neighbors detail",
-            "60s một lần => gửi CDP qua Sw và ngược lại",
-            "S1 (config)# interface <value_int>",
-            "S1 (config-if)# no cdp enable => tắt cdp",
-            "S1 (config)# no cdp run"
+            "Sw# show cdp neighbors",
+            "Sw# show cdp neighbors detail",
+            "CDP đc gửi 60s một lần qua các Sw và ngc lại",
+            "Sw (config)# interface <value_int>",
+            "Sw (config-if)# no cdp enable => tắt cdp",
+            "Sw (config)# no cdp run"
         ]
     },
     {
         "title": "Bài 60 Giao thức phát hiện thiết bị láng giềng LLDP trên các thiết bị mạng",
         "keywords": [
-            "S1 (config)# lldp run",
-            "S1 (config)# interface <value_int>",
-            "S1 (config-if)# lldp enable",
-            "S1# show lldp neighbors"
+            "Sw (config)# lldp run",
+            "Sw (config)# interface <value_int>",
+            "Sw (config-if)# lldp enable",
+            "Sw# show lldp neighbors"
         ]
     },
     {
@@ -502,37 +529,61 @@
     {
         "title": "Bài 88 Cấu hình VLAN trên Cisco Switch",
         "keywords": [
-            "S1 (config)# vlan 1",
-            "S1 (config-vlan)# name <tên VLAN>",
-            "S1 (config-vlan)# exit",
-            "S1 (config)# interface <value_int>",
-            "S1 (config-if)# switchport mode access",
-            "S1 (config-if)# switchport access vlan <vlan_id>",
-            "S1# show vlan brief",
+            "Sw (config)# vlan 1",
+            "Sw (config-vlan)# name <tên VLAN>",
+            "Sw (config-vlan)# exit",
             "",
-            "S1 (config)# no lvan <vlan_id>" // Ex: S1 (config)# no vlan 10, 2-9
+            "Sw (config)# interface <value_int>",
+            "Sw (config-if)# switchport mode access",
+            "Sw (config-if)# switchport access vlan <vlan_id>",
+            "Sw# show vlan brief",
+            // Ex:
+            // Sw (config)# interface 4
+            // Sw (config-if)# switchport mode access
+            // Sw (config-if)# switchport access vlan 2
+            // => interface 4 là thành viên thuộc vlan 2
+            "",
+            "Sw (config)# no lvan <vlan_id>" // Ex: Sw (config)# no vlan 10, 2-9
         ]
     },
     {
         "title": "Bài 89 Tổng quan về đường Trunk",
-        "keywords": []
+        "keywords": [
+            "kết nối n thành 1 (switch)",
+            "vlan các switch kết nối đc với nhau"
+        ]
     },
     {
         "title": "Bài 90 Cấu hình kết nối Trunk trên Cisco Switch",
         "keywords": [
-            "S1 (config)# interface <value_int>",
-            "S1 (config-if)# switchport mode trunk",
-            "S1 (config-if)# switchport trunk encapsulation dot1q",
-            "S1 (config-if)# switchport trunk allow vlan <vlan_id>", // Ex: S1 (config-if)# switchport trunk allow vlan 2-9, 10, 20-30
-            "S1 (config-if)# switchport trunk native vlan <vlan_id>",
+            "Sw (config)# interface <value_int>",
+            "Sw (config-if)# switchport mode trunk",
+            "Sw (config-if)# switchport trunk encapsulation dot1q",
             "",
-            "S1# show interface trunk",
-            "S1 (config)# vlan dot1q tag native" // native vlan được đánh dấu gán tag
+            "Sw (config)# interface <value_int>",
+            "Sw (config-if)# switchport trunk allow vlan <vlan_id>",
+            // Ex:
+            // Sw (config)# interface 1
+            // Sw (config-if)# switchport trunk allow vlan 2-9, 10, 20-30 
+            // => chỉ cho phép các vlan kết nối với nhau qua interface...
+            "Sw (config-if)# switchport trunk native vlan <vlan_id>",
+            "",
+            "Sw# show interface trunk",
+            "Sw (config)# vlan dot1q tag native" // native vlan được đánh dấu gán tag
         ]
     },
     {
         "title": "Bài 91 Hiệu chỉnh Native VLAN trên đường Trunk sử dụng kiểu đóng gói dot1q",
-        "keywords": []
+        "keywords": [
+            "Sw (config)# interface <value_int>",
+            "Sw (config-if)# switchport mode trunk",
+            "Sw (config-if)# switchport trunk native vlan <value_int>"
+            // Ex:
+            // Sw (config)# interface 1
+            // Sw (config-if)# switchport mode trunk
+            // Sw (config-if)# switchport trunk native vlan 2
+            // => thay đổi native vlan thành vlan 2
+        ]
     },
     {
         "title": "Bài 92 Giải pháp mở rộng VLAN nếu thiếu Port trên Switch",
@@ -540,15 +591,34 @@
     },
     {
         "title": "Bài 93 Giao thức DTP tự động thiết lập kết nối Trunk giữa các Switch  FEE",
-        "keywords": []
+        "keywords": [
+            "Sws:  Sw1 ------------------------------------------- Sw2",
+            "mode: [auto]----------------------------------[desirable]",
+            "1.    <-----------------------------------------------DTP",
+            "2.    DTP----------------------------------------------->",
+            "3.    <---------------------trunk----------------------->"
+        ]
     },
     {
         "title": "Bài 94 Giao thức VTP đồng bộ hóa thông tin VLAN giữa các Switch",
-        "keywords": []
+        "keywords": [
+            "đồng bộ hóa thông tin (VLAN config) giữa các Sw mà không cần manual config cho mỗi cái",
+            "",
+            "Sw (config)# vtp domain <name_domain>", // name_domain: phân biệt chữ hoa/thường
+            "Sw (config)# vtp mode <Server|Client|Transparent>",
+            "Server <---> Server <---> Client <---> Client",
+            "Sw# show vtp status",
+            // kiểm tra Configuration Revision, nếu đồng bộ hết trên tất cả các Sw thì đã được đồng bộ hóa
+            "Sw (config)# vtp password <password>",
+            "Sw chỉ cập nhật status CỦA NÓ khi chỉ số revision của NÓ bé hơn của Sw gửi, nếu không NÓ sẽ bị cập nhập ngược lại, nếu bằng thì không làm gì"
+        ]
     },
     {
         "title": "Bài 95 Giải pháp Router on a Stick trên Cisco Router",
-        "keywords": []
+        "keywords": [
+            "bài toán: kết nối vlan cùng sw, mỗi device trỏ Default gateway -> interface thiết bị kết nối (router) các interfaces của vlan => càng nhiều vlan càng nhiều interface của thiết bị kết nối",
+            "giải pháp: tạo kết nối trunk từ (Switch và Router) => tạo và đặt ip cho các sub-interface => trỏ Default gateway của device tới các sub-interface"
+        ]
     },
     {
         "title": "Bài 96 Giải pháp SVI trên Switch Layer 3",
